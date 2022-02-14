@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SebastianKajszczak/filmy-lista/static/css/main.1fb5a753.css",
-    "main.js": "/SebastianKajszczak/filmy-lista/static/js/main.8a12e71e.js",
-    "static/js/787.14d07b3f.chunk.js": "/SebastianKajszczak/filmy-lista/static/js/787.14d07b3f.chunk.js",
-    "index.html": "/SebastianKajszczak/filmy-lista/index.html",
-    "main.1fb5a753.css.map": "/SebastianKajszczak/filmy-lista/static/css/main.1fb5a753.css.map",
-    "main.8a12e71e.js.map": "/SebastianKajszczak/filmy-lista/static/js/main.8a12e71e.js.map",
-    "787.14d07b3f.chunk.js.map": "/SebastianKajszczak/filmy-lista/static/js/787.14d07b3f.chunk.js.map"
+    "main.css": "/filmy-lista/static/css/main.1fb5a753.css",
+    "main.js": "/filmy-lista/static/js/main.89279cde.js",
+    "static/js/787.14d07b3f.chunk.js": "/filmy-lista/static/js/787.14d07b3f.chunk.js",
+    "index.html": "/filmy-lista/index.html",
+    "main.1fb5a753.css.map": "/filmy-lista/static/css/main.1fb5a753.css.map",
+    "main.89279cde.js.map": "/filmy-lista/static/js/main.89279cde.js.map",
+    "787.14d07b3f.chunk.js.map": "/filmy-lista/static/js/787.14d07b3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fb5a753.css",
-    "static/js/main.8a12e71e.js"
+    "static/js/main.89279cde.js"
   ]
 }
