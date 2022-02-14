@@ -2,3 +2,6 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+.activeLink {
+    color: skyblue;
+}

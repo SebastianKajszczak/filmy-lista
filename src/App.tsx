@@ -6,6 +6,7 @@ import ApplicationRoutes from "./utils/routes/ApplicationRoutes";
 
 function App() {
   return (
+
         <ApplicationRoutes/>
   );
 }

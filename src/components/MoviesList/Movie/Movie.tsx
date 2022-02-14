@@ -31,18 +31,18 @@ const Movie = () => {
     }, []);
 
     return (
-        <Flex sx={{justifyContent: 'center', alignContent: 'center'}}>
+        <Flex>
             <Box p={5} bg="muted">
-                {loading && <Spinner />}
-                <Box>
+                <Flex p={3} sx={{justifyContent: 'center'}}>
+                    {loading && <Spinner />}
                     {movie && <Image src={`${imageUrl}${movie?.poster_path}`}/>}
-                </Box>
-                <Box>
-                    <Text sx={{color: 'white'}}>{movie?.title}</Text>
-                </Box>
-                <Box>
-                    <Text sx={{color: 'white'}}>{movie?.overview}</Text>
-                </Box>
+                </Flex>
+                <Flex  p={1} sx={{justifyContent: 'center', fontWeight: 'bold'}}>
+                    <Text>{movie?.title}</Text>
+                </Flex>
+                <Flex p={3} sx={{justifyContent: 'center', textAlign:'center'}}>
+                    <Text>{movie?.overview}</Text>
+                </Flex>
             </Box>
         </Flex>
     )
